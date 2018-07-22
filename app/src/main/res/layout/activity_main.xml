@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:id="@+id/relative"
+    android:background="#E65100"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rec">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="1"
+                android:tag="1"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="2"
+                android:tag="2"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="3"
+                android:tag="3"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="4"
+                android:tag="4"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="5"
+                android:tag="5"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="6"
+                android:tag="6"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="7"
+                android:tag="7"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="8"
+                android:tag="8"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="9"
+                android:tag="9"
+                android:backgroundTint="#d32f2f"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="10"
+                android:tag="10"
+                android:backgroundTint="#d32f2f"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/buttonstyle"
+                android:text="11"
+                android:tag="11"
+                android:backgroundTint="#F57C00"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="12"
+                android:tag="12"
+                android:backgroundTint="#F57C00"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="13"
+                android:tag="13"
+                android:backgroundTint="#F57C00"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="14"
+                android:tag="14"
+                android:backgroundTint="#F57C00"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="15"
+                android:tag="15"
+                android:backgroundTint="#F57C00"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="16"
+                android:tag="16"
+                android:backgroundTint="#F57C00"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="17"
+                android:tag="17"
+                android:backgroundTint="#F57C00"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="18"
+                android:tag="18"
+                android:backgroundTint="#F57C00"/>
+            <TextView
+                style="@style/buttonstyle"
+                android:text="19"
+                android:tag="19"
+                android:backgroundTint="#F57C00"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="20"
+                android:tag="20"
+                android:backgroundTint="#F57C00"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

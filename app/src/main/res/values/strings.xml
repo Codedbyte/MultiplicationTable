@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TimesTable</string>
+
+
+    <style name="buttonstyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:onClick">buttons</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:background">@drawable/bg</item>
+    </style>
+
+</resources>
